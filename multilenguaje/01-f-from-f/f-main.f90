@@ -7,7 +7,7 @@ program testsum
   do i=1,200
     data(i) = i-100
   end do
-
+  write(*,*) data
   call sum_abs(data,n,asum)
   print*, 'sum=',asum
 end program testsum 
